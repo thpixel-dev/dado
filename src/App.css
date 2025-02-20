@@ -1,0 +1,49 @@
+.container-app{
+  height: 190vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(141, 54%, 86%, 1);
+
+background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#caefd7", endColorstr="#f5bfd7", GradientType=1 );
+}
+
+.emoji{
+  width: 90vw;
+  height: 90vw;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: clamp(20px,30vw,190px);
+}
+.dado{
+  width: 10vw;
+  height: 10vw;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: clamp(10px,30vw,10px)
+}
+.img{
+  width: 10vw;
+  height: 10vw;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: clamp(10px,30vw,10px)
+}
